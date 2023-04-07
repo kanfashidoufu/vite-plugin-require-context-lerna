@@ -1,0 +1,44 @@
+{
+  "name": "vite-plugin-require-context-lerna",
+  "version": "1.0.10",
+  "description": "A vite plugin that support require.context in vite and support lerna cross-project scenarios",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest",
+    "test-c": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanfashidoufu/vite-plugin-require-context-lerna.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "require.context",
+    "lerna"
+  ],
+  "author": "Andy Wang",
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/kanfashidoufu/vite-plugin-require-context-lerna/issues"
+  },
+  "homepage": "https://github.com/kanfashidoufu/vite-plugin-require-context-lerna#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "node-dir": "^0.1.17"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.1",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.3",
+    "vite": "^2.3.6"
+  }
+}

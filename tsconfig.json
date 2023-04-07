@@ -1,0 +1,16 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "lib",
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": [
+      "es2020.string"
+    ]
+  }
+}
